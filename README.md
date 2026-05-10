@@ -204,8 +204,13 @@ try (Connection conn = DBHelper.getConnection();
 ### Installation & Setup
 
 ### 1. Clone or Download the Project
+#### a. Clone
 ```bash
-cd d:\MENTAL\Java\timetablevalidator
+git clone https://github.com/kuldeepiba24-png/TimeTableValidator.git
+```
+#### b. Opne Project
+```bash
+cd d:\Java\TimeTableValidator
 ```
 
 ### 2. Create Database and Tables
@@ -236,7 +241,7 @@ private static final String PASSWORD = "";
 
 ### Option 1: Quick Compile
 ```bash
-cd "d:\MENTAL\Java\timetablevalidator" && javac -d target/classes -sourcepath src/main/java \
+cd "d:\Java\timetablevalidator" && javac -d target/classes -sourcepath src/main/java \
   src/main/java/com/timetablevalidator/ui/*.java \
   src/main/java/com/timetablevalidator/App.java 2>&1 && echo "Compilation successful"
 ```
@@ -355,7 +360,7 @@ Colors, fonts, and styling constants can be modified here.
 ## Academic Integrity — Code must be your group's work. Cite any tutorials or snippets you adapt.
 
 ### Original Work Statement
-This project is original work developed by **[YOUR_GROUP_NAME]**. All core logic, UI design, and database architecture were implemented independently by the group members.
+This project is original work developed by **[TIME TABLE VALIDATOR]**. All core logic, UI design, and database architecture were implemented independently by the group members.
 
 ### Design Patterns & Inspiration
 - **Service Layer Pattern** - Standard architectural pattern for separating business logic from presentation (applied independently)
