@@ -1,4 +1,5 @@
 # Timetable Constraint Validator
+[Click here to see Presentation Video](https://youtu.be/yRWhX7InblU)
 
 A comprehensive Java desktop application for managing and validating academic timetables. The application provides a user-friendly GUI for managing teachers, rooms, student groups, time slots, and course assignments with built-in constraint validation.
 
